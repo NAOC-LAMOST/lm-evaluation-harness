@@ -1,0 +1,24 @@
+dataset_path: Maxwell-Jia/astro-bench-test
+dataset_name: complex_reasoning
+task: astro_bench_complex_reasoning
+test_split: test
+doc_to_text: !function utils.create_zero_shot_cot_prompt
+doc_to_target: answer
+output_type: generate_until
+generation_kwargs:
+  until: []
+  do_sample: false
+filter_list:
+  - name: "extract answer"
+    filter:
+      - function: "regex"
+        regex_pattern: "(?i)\\banswer\\b\\s*[:\\s]*([A-D])\\b"
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 0.0.1
