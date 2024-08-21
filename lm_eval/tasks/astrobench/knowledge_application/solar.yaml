@@ -1,0 +1,4 @@
+task: astrobench_knowledge_application_solar
+task_alias: application_solar
+include: _fewshot_template_yaml
+dataset_name: solar

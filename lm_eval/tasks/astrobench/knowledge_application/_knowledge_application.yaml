@@ -1,0 +1,22 @@
+group: astrobench_knowledge_application
+group_alias: knowledge_application
+task:
+  - astrobench_knowledge_application_astrochemistry
+  - astrobench_knowledge_application_celestial_mechanics_astrometry
+  - astrobench_knowledge_application_cosmology
+  - astrobench_knowledge_application_galaxies
+  - astrobench_knowledge_application_high_energy
+  - astrobench_knowledge_application_optical
+  - astrobench_knowledge_application_planetary
+  - astrobench_knowledge_application_radio
+  - astrobench_knowledge_application_solar
+  - astrobench_knowledge_application_stellar
+
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+    filter_list: strict-match
+
+metadata:
+  version: 0.0.3

@@ -1,0 +1,4 @@
+task: astrobench_knowledge_application_celestial_mechanics_astrometry
+task_alias: application_astrometry
+include: _fewshot_template_yaml
+dataset_name: celestial_mechanics_astrometry
