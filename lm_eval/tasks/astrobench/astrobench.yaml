@@ -4,7 +4,7 @@ task:
   - astrobench_basic_knowledge
   - astrobench_knowledge_application
   - astrobench_scientific_calculation
-  # - astro_bench_complex_reasoning
+  - astrobench_complex_reasoning
 
 metadata:
   version: 0.0.3
