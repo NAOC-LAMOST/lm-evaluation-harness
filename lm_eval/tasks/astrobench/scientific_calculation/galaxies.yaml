@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_galaxies
+task_alias: calculation_galaxies
+include: _zeroshot_cot_template_yaml
+dataset_name: galaxies

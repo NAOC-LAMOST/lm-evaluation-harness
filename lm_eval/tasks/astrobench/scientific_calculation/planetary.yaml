@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_planetary
+task_alias: calculation_planetary
+include: _zeroshot_cot_template_yaml
+dataset_name: planetary

@@ -3,7 +3,7 @@ group_alias: astrobench
 task:
   - astrobench_basic_knowledge
   - astrobench_knowledge_application
-  # - astro_bench_scientific_calculation
+  - astrobench_scientific_calculation
   # - astro_bench_complex_reasoning
 
 metadata:

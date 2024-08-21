@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_celestial_mechanics_astrometry
+task_alias: calculation_astrometry
+include: _zeroshot_cot_template_yaml
+dataset_name: celestial_mechanics_astrometry

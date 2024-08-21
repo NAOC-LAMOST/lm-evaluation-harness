@@ -1,0 +1,22 @@
+group: astrobench_scientific_calculation
+group_alias: scientific_calculation
+task:
+  - astrobench_scientific_calculation_astrochemistry
+  - astrobench_scientific_calculation_celestial_mechanics_astrometry
+  - astrobench_scientific_calculation_cosmology
+  - astrobench_scientific_calculation_galaxies
+  - astrobench_scientific_calculation_high_energy
+  - astrobench_scientific_calculation_optical
+  - astrobench_scientific_calculation_planetary
+  - astrobench_scientific_calculation_radio
+  - astrobench_scientific_calculation_solar
+  - astrobench_scientific_calculation_stellar
+
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+    filter_list: strict-match
+
+metadata:
+  version: 0.0.3

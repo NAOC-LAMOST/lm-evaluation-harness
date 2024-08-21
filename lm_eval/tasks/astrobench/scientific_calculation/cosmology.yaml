@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_cosmology
+task_alias: calculation_cosmology
+include: _zeroshot_cot_template_yaml
+dataset_name: cosmology

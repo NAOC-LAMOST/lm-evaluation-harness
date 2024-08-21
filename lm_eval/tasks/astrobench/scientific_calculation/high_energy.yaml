@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_high_energy
+task_alias: calculation_high_energy
+include: _zeroshot_cot_template_yaml
+dataset_name: high_energy

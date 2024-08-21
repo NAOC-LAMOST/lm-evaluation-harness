@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_optical
+task_alias: calculation_optical
+include: _zeroshot_cot_template_yaml
+dataset_name: optical

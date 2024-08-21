@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_stellar
+task_alias: calculation_stellar
+include: _zeroshot_cot_template_yaml
+dataset_name: stellar

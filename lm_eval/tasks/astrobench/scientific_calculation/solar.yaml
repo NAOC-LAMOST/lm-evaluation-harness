@@ -1,0 +1,4 @@
+task: astrobench_scientific_calculation_solar
+task_alias: calculation_solar
+include: _zeroshot_cot_template_yaml
+dataset_name: solar
