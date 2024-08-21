@@ -1,0 +1,4 @@
+task: astrobench_complex_reasoning_all_subjects
+task_alias: reasoning_all_subjects
+include: _zeroshot_cot_template_yaml
+dataset_name: complex_reasoning

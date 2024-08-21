@@ -16,16 +16,3 @@ def create_zero_shot_cot_prompt(doc):
     prompt += ZERO_SHORT_COT_PROMPT
     return prompt
 
-
-def doc_to_text(doc):
-    doc_to_text = f"{doc['question']}\n"
-
-    for i in range(len(doc["options"])):
-        doc_to_text += f"{string.ascii_uppercase[i]}. {doc['options'][i]}\n"
-
-    doc_to_text += "Answer:"
-    return doc_to_text
-
-
-def doc_to_choice(doc):
-    return [string.ascii_uppercase[i] for i in range(len(doc["options"]))]

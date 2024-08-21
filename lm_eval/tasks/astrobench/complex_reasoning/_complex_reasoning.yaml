@@ -1,0 +1,13 @@
+group: astrobench_complex_reasoning
+group_alias: complex_reasoning
+task:
+  - astrobench_complex_reasoning_all_subjects
+
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: true
+    filter_list: strict-match
+
+metadata:
+  version: 0.0.3
