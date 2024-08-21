@@ -1,4 +1,4 @@
-task: astrobench_bk_celestial_mechanics_astrometry
+task: astrobench_basic_knowledge_celestial_mechanics_astrometry
 task_alias: knowledge_astrometry
 include: _fewshot_template_yaml
 dataset_name: celestial_mechanics_astrometry

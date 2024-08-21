@@ -1,4 +1,4 @@
-task: astrobench_bk_solar
+task: astrobench_basic_knowledge_solar
 task_alias: knowledge_solar
 include: _fewshot_template_yaml
 dataset_name: solar
