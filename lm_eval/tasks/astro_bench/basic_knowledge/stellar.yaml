@@ -1,0 +1,4 @@
+task: astrobench_bk_stellar
+task_alias: knowledge_stellar
+include: _fewshot_template_yaml
+dataset_name: stellar

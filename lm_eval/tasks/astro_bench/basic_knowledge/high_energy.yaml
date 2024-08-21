@@ -1,0 +1,4 @@
+task: astrobench_bk_high_energy
+task_alias: knowledge_high_energy
+include: _fewshot_template_yaml
+dataset_name: high_energy

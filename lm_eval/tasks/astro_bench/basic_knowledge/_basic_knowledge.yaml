@@ -1,0 +1,22 @@
+group: astrobench_basic_knowledge
+group_alias: basic_knowledge
+task:
+  - astrobench_bk_astrochemistry
+  - astrobench_bk_celestial_mechanics_astrometry
+  - astrobench_bk_cosmology
+  - astrobench_bk_galaxies
+  - astrobench_bk_high_energy
+  - astrobench_bk_optical
+  - astrobench_bk_planetary
+  - astrobench_bk_radio
+  - astrobench_bk_solar
+  - astrobench_bk_stellar
+
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+    filter_list: strict-match
+
+metadata:
+  version: 0.0.3

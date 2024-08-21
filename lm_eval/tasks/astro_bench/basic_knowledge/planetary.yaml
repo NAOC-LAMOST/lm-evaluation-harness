@@ -1,0 +1,4 @@
+task: astrobench_bk_planetary
+task_alias: knowledge_planetary
+include: _fewshot_template_yaml
+dataset_name: planetary

@@ -1,0 +1,4 @@
+task: astrobench_bk_radio
+task_alias: knowledge_radio
+include: _fewshot_template_yaml
+dataset_name: radio

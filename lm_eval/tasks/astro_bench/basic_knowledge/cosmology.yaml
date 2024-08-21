@@ -1,0 +1,4 @@
+task: astrobench_bk_cosmology
+task_alias: knowledge_cosmology
+include: _fewshot_template_yaml
+dataset_name: cosmology

@@ -1,0 +1,4 @@
+task: astrobench_bk_astrochemistry
+task_alias: knowledge_astrochemistry
+include: _fewshot_template_yaml
+dataset_name: astrochemistry
